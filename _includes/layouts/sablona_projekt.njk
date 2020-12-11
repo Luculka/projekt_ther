@@ -1,0 +1,11 @@
+{% include "partials/page_top.njk" %}
+
+{% include "partials/nav-kategorie-projekt.njk" %}
+
+<main>
+    {%include "partials/projekt_popis.njk" %}
+    {{ content | safe}}
+</main>
+
+
+{% include "partials/page_bottom.njk" %}

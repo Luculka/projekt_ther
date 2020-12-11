@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/css/lightbox.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+    <title>THER - Architektonický ateliér</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="menu">
+        <li class="logo"><a href="/">THER</a></li>
+        <li class="item has-submenu">
+          <a tabindex="0">Projekty</a>
+          <ul class="submenu">
+            <li class="subitem"><a href="/projekty/">Vše</a></li>
+            <li class="subitem"><a href="/projekty/rodinne-domy/">Rodinné domy</a></li>
+            <li class="subitem"><a href="/projekty/bytove-domy/">Bytové domy</a></li>
+            <li class="subitem"><a href="/projekty/polyfunkcni-objekty/">Polyfunkční objekty</a></li>
+            <li class="subitem"><a href="/projekty/administrativni-objekty/">Administrativní objekty</a></li>
+            <li class="subitem"><a href="/projekty/interier/">Interiér</a></li>
+          </ul>
+        </li>
+        <!-- <li class="item has-submenu">
+          <a tabindex="0">Realizace</a>
+          <ul class="submenu">
+            <li class="subitem"><a href="/realizace/">Vše</a></li>
+            <li class="subitem"><a href="/realizace/rodinne-domy/">Rodinné domy</a></li>
+            <li class="subitem"><a href="/realizace/bytove-domy/">Bytové domy</a></li>
+            <li class="subitem"><a href="/realizace/polyfunkcni-objekty/">Polyfunkční objekty</a>
+            <li class="subitem"><a href="/realizace/administrativni-objekty/">Administrativní objekty</a></li>
+            <li class="subitem"><a href="/realizace/interier/">Interiér</a>
+             
+            </li>
+          </ul>
+        </li> -->
+        <li class="item {% if menu==='onas' %}menu__item--active {%endif%}"><a href="/onas/">O nás</a></li>
+        <li class="item {% if menu==='kontakt' %}menu__item--active {%endif%}"><a href="/kontakt/">Kontakt</a>
+        </li>
+        <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+      </ul>
+    </nav>
+
+    

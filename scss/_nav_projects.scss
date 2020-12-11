@@ -1,0 +1,33 @@
+.project_cat {
+    display: none;
+}
+
+@media screen and (min-width: 1000px){
+.project_cat {
+    display: block;
+    background-color: #f2efea;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.project_cat__list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: baseline;
+}
+
+.project_cat__link {
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+
+.project_cat__link:hover {
+    color: black;
+}
+.cat_name {
+    font-size: 25px; 
+    color: black;
+}
+}

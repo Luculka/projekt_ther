@@ -1,0 +1,10 @@
+.onas__popis {
+    margin: 50px;
+    max-width: 600px;
+}
+
+@media screen and (min-width: 600px) {
+    .onas {
+        display: flex;
+    }
+}

@@ -1,0 +1,32 @@
+.contact {
+    margin: 50px;
+}
+
+.contact__adress {
+    text-align: center;
+    margin-bottom: 50px;
+
+    h3 {
+        margin-top: 50px;
+    }    
+}
+iframe {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px){
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__map {
+    flex-basis: 60%;
+}
+
+.contact__adress {
+    flex-basis: 40%;
+
+}
+ }
