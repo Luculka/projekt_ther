@@ -1,3 +1,6 @@
+.project_title {
+    text-align: left;
+}
 .popis_project {
     margin: 30px;
     text-align: justify;
@@ -13,15 +16,15 @@
     object-fit: cover;
 }
 
-@media screen and (min-width: 768px){
-    .grid_project {
-        display: grid;
-        grid-gap: 20px;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-        grid-auto-rows: calc(100vh/4);
-        margin: 20px;
-}
-}
+// @media screen and (min-width: 768px){
+//     .grid_project {
+//         display: grid;
+//         grid-gap: 20px;
+//         grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+//         grid-auto-rows: calc(100vh/4);
+//         margin: 20px;
+// }
+// }
 
 @media screen and (min-width: 1000px){
     .grid {
@@ -37,9 +40,13 @@
     }
     // //verze 1
     .grid_project {
-        max-width: 800px;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         grid-auto-rows: calc(100vh/4);
+        margin: 20px;
+        flex: 1 0 70%;
+
 
 
 
